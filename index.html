@@ -7,14 +7,24 @@
   </head>
   <body>
     <p>
-      Software developer from Elkhart, IN currently working remotely at
-      <a href="https://mfbtech.com/">MFB Technologies, Inc.</a>
+      Software developer from Elkhart, IN. Currently working remotely at
+      <a href="https://mfbtech.com/">MFB Technologies, Inc.</a> building
+      software for law firm litigators.
     </p>
 
     <p>
-      Lately writing open source tools in new and experimental technologies with
-      TypeScript and React.
+      Lately building open source tools in new and experimental technologies
+      with TypeScript and React ecosystem.
     </p>
+
+    <p>
+      Previously developed web applications in a cross-platform native runtime
+      environment to run on native iOS and Android devices.
+    </p>
+
+    <p>For a little while even did full-stack web development.</p>
+
+    <p></p>
 
     <ul>
       <li>
@@ -30,15 +40,25 @@
       <ul>
         <li>
           <a href="https://www.npmjs.com/package/react-user-agent-data"
-            ><code>react-user-agent-data</code></a
+            ><code>npm install react-user-agent-data</code></a
           >
         </li>
         <li>
           <a href="https://www.npmjs.com/package/react-network-information"
-            ><code>react-network-information</code></a
+            ><code>npm install react-network-information</code></a
           >
         </li>
       </ul>
     </div>
+    <script>
+      async function getUser() {
+        const response = await fetch(
+          "https://api.github.com/users/zaknicholsdev"
+        );
+        const json = await response.json();
+        console.log(json);
+      }
+      getUser();
+    </script>
   </body>
 </html>
