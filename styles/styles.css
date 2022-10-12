@@ -124,6 +124,6 @@ a:active {
   animation: cursor-blink 1.5s steps(2) infinite;
 }
 
-.terminal-header {
-  margin: auto;
+.terminal-text {
+  word-break: break-all;
 }
