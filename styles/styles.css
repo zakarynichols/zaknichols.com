@@ -8,6 +8,10 @@
   font-family: monospace;
 }
 
+.terminal-text {
+  word-break: break-all;
+}
+
 .bio {
   color: #e11d48;
 }
