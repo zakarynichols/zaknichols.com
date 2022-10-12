@@ -5,175 +5,193 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/devicon.min.css" />
+    <link rel="stylesheet" href="styles/normalize.css" />
     <title>Zakary Nichols - Portfolio</title>
   </head>
-  <body class="container">
-    <div class="menu">
-      <div class="button close"></div>
-      <div class="button minimize"></div>
-      <div class="button zoom"></div>
-    </div>
-    <div>
-      <h2 class="terminal-text">
-        <span class="green">zakarynichols@web</span><span class="white">:</span
-        ><span class="blue">~</span><span class="blue">/portfolio</span
-        ><span class="white">$<span class="flicker">|</span></span>
-      </h2>
-      <p class="white">
-        A full-time software engineer with a passion for creating scalable,
-        testable, and performant applications using the TypeScript and React
-        ecosystems. During downtime, I publish open-source TypeScript and React
-        packages and experiment with various TypeScript/JavaScript APIs.
-      </p>
-    </div>
+  <body>
+    <div class="background">
+      <div class="container">
+        <div class="menu">
+          <div class="button close"></div>
+          <div class="button minimize"></div>
+          <div class="button zoom"></div>
+        </div>
+        <main class="main-content">
+          <h1 class="terminal-text light-font-weight">
+            <span class="text-green">zakarynichols@dev</span
+            ><span class="text-white">:</span><span class="text-blue">~</span
+            ><span class="text-blue">/portfolio</span
+            ><span class="text-white">$<span class="flicker">|</span></span>
+          </h1>
+          <section>
+            <h2 class="text-violet light-font-weight">Summary</h2>
+            <p class="text-white">
+              A full-time software engineer with a passion for creating
+              scalable, testable, and performant applications using the
+              TypeScript and React ecosystems. During downtime, I publish
+              open-source TypeScript and React packages and experiment with
+              various TypeScript/JavaScript APIs.
+            </p>
+          </section>
 
-    <hr />
+          <hr />
 
-    <div>
-      <h2 class="technologies">technologies</h2>
-      <div class="dev-icons">
-        <i class="devicon-typescript-plain colored dev-icon"></i>
-        <i class="devicon-react-plain colored dev-icon"></i>
-        <i class="devicon-jest-plain colored dev-icon"></i>
+          <section>
+            <h2 class="technologies light-font-weight">Technologies</h2>
+            <div class="dev-icons">
+              <i class="devicon-typescript-plain colored dev-icon"></i>
+              <i class="devicon-react-plain colored dev-icon"></i>
+              <i class="devicon-jest-plain colored dev-icon"></i>
 
-        <i class="devicon-webpack-plain colored dev-icon"></i>
-        <i class="devicon-babel-plain colored dev-icon"></i>
-        <i class="devicon-eslint-original colored dev-icon"></i>
-        <i class="devicon-nodejs-plain colored dev-icon"></i>
+              <i class="devicon-webpack-plain colored dev-icon"></i>
+              <i class="devicon-babel-plain colored dev-icon"></i>
+              <i class="devicon-eslint-original colored dev-icon"></i>
+              <i class="devicon-nodejs-plain colored dev-icon"></i>
 
-        <i class="devicon-go-plain colored dev-icon"></i>
-        <i class="devicon-c-plain colored dev-icon"></i>
+              <i class="devicon-go-plain colored dev-icon"></i>
+              <i class="devicon-c-plain colored dev-icon"></i>
+            </div>
+            <div>
+              <p>
+                In all of my programming projects, I start with a static type
+                system, either TypeScript for client-side code or Go for
+                server-side code. A weak type system leads to subtle bugs while
+                working in large codebases with several developers. We lack the
+                intelligence of compilers. Leave the task to them.
+              </p>
+              <p>
+                When a web application requires complex functionality coupled
+                with a template, it is time to use React. Because JavaScript is
+                more imperative, codebases become complex using sanitizing APIs,
+                serializing/deserializing HTML, and returning string templates
+                with variables embedded. All of this has been simplified by
+                React. React's declarative API may be used to expedite the
+                entire development process and reduce the amount of context a
+                developer must hold in their head at any given time.
+              </p>
+              <p>
+                Out of all the programming languages, Go is probably my
+                favorite. And not just because it's a language, but also because
+                it's a whole toolchain. Strong standard libraries, several
+                documents outlining its detailed usage, built-in unit testing
+                with coverage and fuzzing, static typing, code-formatting, etc.
+                are all included with it. Coming from the disjointed JavaScript
+                ecosystem. Go makes the development process more enjoyable. I
+                don't have to resort to a third-party dependency or waste time
+                configuring build tools. Most of the time, it just works. I'm
+                devoting less time to debugging and more to development.
+              </p>
+            </div>
+          </section>
+          <hr />
+
+          <section class="text-white">
+            <h2 class="open-source light-font-weight">Open-source software</h2>
+            <p>
+              Collection of TypeScript and React packages. All major releases
+              come shipped with type declarations, include unit tests, and be
+              backwards compatible for previous React users.
+            </p>
+            <p>
+              Bear that in mind The vast majority of these packages use
+              <i>new and experimental</i> technologies. Be careful to
+              double-check Check the compatibility of your browser before
+              committing to a dependency.
+            </p>
+
+            <h4>React Resize Observer</h4>
+            <a href="https://www.npmjs.com/package/react-dom-resize-observer"
+              >npm <i class="devicon-npm-original-wordmark colored"></i
+            ></a>
+
+            <br />
+
+            <a href="https://github.com/zakarynichols/react-dom-resize-observer"
+              >github <i class="devicon-github-original"></i>
+            </a>
+
+            <p>
+              Hook to provide a performant mechanism by which code can monitor
+              an element for changes to its size, with notifications being
+              delivered to the observer each time the size changes.
+            </p>
+
+            <h4>React User Agent Client Hints</h4>
+
+            <a
+              href="https://www.npmjs.com/package/react-user-agent-client-hints"
+              >npm <i class="devicon-npm-original-wordmark colored"></i>
+            </a>
+            <br />
+            <a
+              href="https://github.com/zakarynichols/react-user-agent-client-hints"
+              >github <i class="devicon-github-original"></i>
+            </a>
+
+            <p>
+              Hook implementing the User-Agent Client Hints API to get
+              information about the browser and operating system of a user.
+            </p>
+
+            <h4>React Network Information</h4>
+            <a href="https://www.npmjs.com/package/react-network-information"
+              >npm <i class="devicon-npm-original-wordmark colored"></i
+            ></a>
+
+            <br />
+
+            <a href="https://github.com/zakarynichols/react-network-information"
+              >github <i class="devicon-github-original"></i>
+            </a>
+
+            <p>
+              Hook to provide information about the connection a device is using
+              to communicate with the network, connection speed, and changes to
+              the network.
+            </p>
+
+            <h4>Error Event Listener</h4>
+            <a href="https://www.npmjs.com/package/error-event-listener"
+              >npm <i class="devicon-npm-original-wordmark colored"></i
+            ></a>
+
+            <br />
+
+            <a href="https://github.com/zakarynichols/error-event-listener"
+              >github <i class="devicon-github-original"></i>
+            </a>
+
+            <p>
+              A type-safe way to listen for all exceptions and/or rejections and
+              render an optional fallback ui when a fatal error occurs.
+            </p>
+          </section>
+
+          <hr />
+
+          <section class="text-white">
+            <h2 class="employment light-font-weight">Career</h2>
+            <h4>Current</h4>
+            <li>
+              In a startup environment, I build highly secure and reliable legal
+              software for law firms and litigators.
+            </li>
+
+            <h4>Previous</h4>
+            <li>
+              Built web apps for remote auctions with an emphasis on high
+              performance and low latency.
+            </li>
+
+            <li>
+              Architected, from scratch, web and offline applications in a
+              cross-platform native runtime environment for iOS and Android
+              devices.
+            </li>
+          </section>
+        </main>
       </div>
-      <div>
-        <p>
-          In all of my programming projects, I start with a static type system,
-          either TypeScript for client-side code or Go for server-side code. A
-          weak type system leads to subtle bugs while working in large codebases
-          with several developers. We lack the intelligence of compilers. Leave
-          the task to them.
-        </p>
-        <p>
-          When a web application requires complex functionality coupled with a
-          template, it is time to use React. Because JavaScript is more
-          imperative, codebases become complex using the `Sanitizer` API,
-          serializing/deserializing HTML, and returning string templates with
-          variables embedded. All of this has been simplified by React. React's
-          declarative API may be used to expedite the entire development process
-          and reduce the amount of context a developer must hold in their head
-          at any given time.
-        </p>
-        <p>
-          Out of all the programming languages, Go is probably my favorite. And
-          not just because it's a language, but also because it's a whole
-          toolchain. Strong standard libraries, several documents outlining its
-          detailed usage, built-in unit testing with coverage and fuzzing,
-          static typing, code-formatting, etc. are all included with it. Coming
-          from the disjointed JavaScript ecosystem. Go makes the development
-          process more enjoyable. I don't have to resort to a third-party
-          dependency or waste time configuring build tools. Most of the time, it
-          just works. I'm devoting less time to debugging and more to
-          development.
-        </p>
-      </div>
     </div>
-    <hr />
-
-    <div class="white">
-      <h2 class="open-source">open-source software</h2>
-
-      <p>
-        Collection of TypeScript and React packages. All major releases come
-        shipped with type declarations, include unit tests, and be backwards
-        compatible for previous React users.
-      </p>
-
-      <h4>React Resize Observer</h4>
-      <a href="https://www.npmjs.com/package/react-dom-resize-observer"
-        >npm <i class="devicon-npm-original-wordmark colored"></i
-      ></a>
-
-      <br />
-
-      <a href="https://github.com/zakarynichols/react-dom-resize-observer"
-        >github <i class="devicon-github-original"></i>
-      </a>
-
-      <p>
-        Hook to provide a performant mechanism by which code can monitor an
-        element for changes to its size, with notifications being delivered to
-        the observer each time the size changes.
-      </p>
-
-      <h4>React User Agent Client Hints</h4>
-
-      <a href="https://www.npmjs.com/package/react-user-agent-client-hints"
-        >npm <i class="devicon-npm-original-wordmark colored"></i>
-      </a>
-      <br />
-      <a href="https://github.com/zakarynichols/react-user-agent-client-hints"
-        >github <i class="devicon-github-original"></i>
-      </a>
-
-      <p>
-        Hook implementing the User-Agent Client Hints API to get information
-        about the browser and operating system of a user.
-      </p>
-
-      <h4>React Network Information</h4>
-      <a href="https://www.npmjs.com/package/react-network-information"
-        >npm <i class="devicon-npm-original-wordmark colored"></i
-      ></a>
-
-      <br />
-
-      <a href="https://github.com/zakarynichols/react-network-information"
-        >github <i class="devicon-github-original"></i>
-      </a>
-
-      <p>
-        Hook to provide information about the connection a device is using to
-        communicate with the network, connection speed, and changes to the
-        network.
-      </p>
-
-      <h4>Error Event Listener</h4>
-      <a href="https://www.npmjs.com/package/error-event-listener"
-        >npm <i class="devicon-npm-original-wordmark colored"></i
-      ></a>
-
-      <br />
-
-      <a href="https://github.com/zakarynichols/error-event-listener"
-        >github <i class="devicon-github-original"></i>
-      </a>
-
-      <p>
-        A type-safe way to listen for all exceptions and/or rejections and
-        render an optional fallback ui when a fatal error occurs.
-      </p>
-    </div>
-
-    <hr />
-
-    <div class="white">
-      <h2 class="employment">employment</h2>
-      <h4>Current</h4>
-      <li>
-        In a startup environment, I build highly secure and reliable legal
-        software for law firms and litigators.
-      </li>
-
-      <h4>Previous</h4>
-      <li>
-        Built web apps for remote auctions with an emphasis on high performance
-        and low latency.
-      </li>
-
-      <li>
-        Architected, from scratch, web and offline applications in a
-        cross-platform native runtime environment for iOS and Android devices.
-      </li>
-    </div>
-    <script src="main.js"></script>
+    <script src="dist/index.js"></script>
   </body>
 </html>

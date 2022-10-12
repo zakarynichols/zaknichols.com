@@ -1,11 +1,70 @@
+.background {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+*::selection {
+  background-color: white;
+  color: black;
+}
+
 .container {
-  font-size: 1.25em;
-  padding: 1em;
-  max-width: 1000px;
-  margin: auto;
   color: #fff;
   background-color: #151515;
   font-family: monospace;
+  margin: 1em 0 1em 0;
+  font-size: 1.25em;
+}
+
+@media (min-width: 0px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.menu {
+  display: flex;
+  background-color: #bbb;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 0.4em;
+}
+
+.button {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  margin: 4px;
+}
+
+.close {
+  background-color: #ff3b47;
+  border-color: #9d252b;
+}
+
+.minimize {
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+.zoom {
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.main-content {
+  padding: 0 1em 1em 1em;
 }
 
 .text-center {
@@ -35,81 +94,32 @@
   margin-right: 10px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-a,
-a:hover,
-a:focus,
-a:active {
-  padding: 0;
-  margin: 0;
-  color: inherit;
-}
-
-.menu {
-  display: flex;
-  background-color: #bbb;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  padding: 6px;
-}
-
-.button {
-  cursor: pointer;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  border: 1px solid #000;
-  position: relative;
-  margin: 4px;
-}
-
-.close {
-  background-color: #ff3b47;
-  border-color: #9d252b;
-}
-
-.minimize {
-  background-color: #ffc100;
-  border-color: #9d802c;
-}
-
-.zoom {
-  background-color: #00d742;
-  border-color: #049931;
-}
-
-.green {
+.text-green {
   color: #16a34a;
 }
 
-.blue {
+.text-blue {
   color: #0284c7;
 }
 
-.red {
+.text-red {
   color: #e11d48;
 }
 
-.white {
+.text-white {
   color: #e5e5e5;
+}
+
+.text-violet {
+  color: #7c3aed;
+}
+
+.text-sky {
+  color: #0284c7;
+}
+
+.light-font-weight {
+  font-weight: lighter;
 }
 
 @keyframes cursor-blink {
@@ -126,4 +136,10 @@ a:active {
 
 .terminal-text {
   word-break: break-all;
+}
+
+.footer {
+  position: fixed;
+  background-color: green;
+  bottom: 0;
 }

@@ -5,6 +5,6 @@
     "module": "ESNext",
     "outDir": "./dist"
   },
-  "include": ["./src"],
+  "include": ["./scripts"],
   "exclude": ["node_modules"]
 }

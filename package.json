@@ -4,5 +4,8 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "typescript": "^4.7.2"
+  },
+  "scripts": {
+    "push-gh-pages": "tsc && npm push origin gh-pages"
   }
 }
