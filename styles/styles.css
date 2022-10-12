@@ -12,10 +12,6 @@
   text-align: center;
 }
 
-.bio {
-  color: #e11d48;
-}
-
 .technologies {
   color: #eab308;
 }
@@ -25,7 +21,7 @@
 }
 
 .employment {
-  color: #16a34a;
+  color: #e11d48;
 }
 
 .dev-icons {
