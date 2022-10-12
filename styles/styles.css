@@ -8,8 +8,8 @@
   font-family: monospace;
 }
 
-.terminal-text {
-  word-break: break-all;
+.text-center {
+  text-align: center;
 }
 
 .bio {
@@ -28,8 +28,15 @@
   color: #16a34a;
 }
 
+.dev-icons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .dev-icon {
   font-size: 40px;
+  padding: 10px 0px 10px 0px;
+  margin-right: 10px;
 }
 
 h1,
@@ -58,9 +65,6 @@ a:active {
   padding: 0;
   margin: 0;
   color: inherit;
-}
-
-body {
 }
 
 .menu {
@@ -104,6 +108,10 @@ body {
   color: #0284c7;
 }
 
+.red {
+  color: #e11d48;
+}
+
 .white {
   color: #e5e5e5;
 }
@@ -118,4 +126,8 @@ body {
   list-style: none;
   color: #fff;
   animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+.terminal-header {
+  margin: auto;
 }

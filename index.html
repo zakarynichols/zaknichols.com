@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/devicon.min.css" />
-    <title>Zakary Nichols | Portfolio</title>
+    <title>Zakary Nichols - Portfolio</title>
   </head>
   <body class="container">
     <div class="menu">
@@ -20,20 +20,18 @@
         ><span class="white">$<span class="flicker">|</span></span>
       </h2>
       <p class="white">
-        Full-time software developer interested in building performant,
-        testable, and scalable software in the TypeScript and React ecosystem.
-        Free time consists of publishing open-source TypeScript and React
-        packages or tinkering with new and experimental TypeScript/JavaScript
-        features.
+        A full-time software engineer with a passion for creating scalable,
+        testable, and performant applications using the TypeScript and React
+        ecosystems. During downtime, I publish open-source TypeScript and React
+        packages and experiment with various TypeScript/JavaScript APIs.
       </p>
     </div>
 
     <hr />
 
-    <div class="technologies">
-      <h2>Technologies</h2>
-      <div>
-        <p></p>
+    <div>
+      <h2 class="technologies">technologies</h2>
+      <div class="dev-icons">
         <i class="devicon-typescript-plain colored dev-icon"></i>
         <i class="devicon-react-plain colored dev-icon"></i>
         <i class="devicon-jest-plain colored dev-icon"></i>
@@ -46,11 +44,46 @@
         <i class="devicon-go-plain colored dev-icon"></i>
         <i class="devicon-c-plain colored dev-icon"></i>
       </div>
+      <div>
+        <p>
+          In all of my programming projects, I start with a static type system,
+          either TypeScript for client-side code or Go for server-side code. A
+          weak type system leads to subtle bugs while working in large codebases
+          with several developers. We lack the intelligence of compilers. Leave
+          the task to them.
+        </p>
+        <p>
+          When a web application requires complex functionality coupled with a
+          template, it is time to use React. Because JavaScript is more
+          imperative, codebases become complex using the `Sanitizer` API,
+          serializing/deserializing HTML, and returning string templates with
+          variables embedded. All of this has been simplified by React.
+        </p>
+        <p>
+          React's declarative API may be used to expedite the entire development
+          process and reduce the amount of context a developer must hold in
+          their head at any given time.
+        </p>
+        <p>
+          Out of all the programming languages, Go is probably my favorite. And
+          not just because it's a language, but also because it's a whole
+          toolchain. Strong standard libraries, several documents outlining its
+          detailed usage, built-in unit testing with coverage and fuzzing,
+          static typing, code-formatting, etc. are all included with it.
+        </p>
+        <p>
+          Coming from the disjointed JavaScript ecosystem. Go makes the
+          development process more enjoyable. I don't have to resort to a
+          third-party dependency or waste time configuring build tools. Most of
+          the time, it just works. I'm devoting less time to debugging and more
+          to development.
+        </p>
+      </div>
     </div>
     <hr />
 
-    <div class="open-source">
-      <h2>Open-source software</h2>
+    <div class="white">
+      <h2 class="open-source">open-source software</h2>
 
       <p>
         Collection of TypeScript and React packages. All major releases come
@@ -126,8 +159,8 @@
 
     <hr />
 
-    <div class="employment">
-      <h2><italic>Employment</italic></h2>
+    <div class="white">
+      <h2 class="red">employment</h2>
       <h4>Current</h4>
       <li>
         In a startup environment, I build highly secure and reliable legal
