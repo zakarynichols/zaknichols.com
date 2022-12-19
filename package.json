@@ -1,6 +1,6 @@
 {
   "main": "./dist/index.js",
-  "homepage": "https://zaknichols.com",
+  "homepage": "https://zakarynichols.com",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "typescript": "^4.7.2"
