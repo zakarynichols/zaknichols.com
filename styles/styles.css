@@ -48,21 +48,6 @@
   margin: 4px;
 }
 
-.close {
-  background-color: #ff3b47;
-  border-color: #9d252b;
-}
-
-.minimize {
-  background-color: #ffc100;
-  border-color: #9d802c;
-}
-
-.zoom {
-  background-color: #00d742;
-  border-color: #049931;
-}
-
 .main-content {
   padding: 0 1em 1em 1em;
 }
