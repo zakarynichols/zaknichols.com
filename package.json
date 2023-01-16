@@ -1,5 +1,4 @@
 {
-  "main": "./dist/index.js",
   "homepage": "https://zakarynichols.com",
   "devDependencies": {
     "gh-pages": "^4.0.0",
