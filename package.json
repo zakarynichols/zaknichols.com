@@ -1,8 +1,11 @@
 {
   "homepage": "https://zakarynichols.com",
+  "type": "module",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "typescript": "^4.7.2"
   },
-  "scripts": {}
+  "scripts": {
+    "build": "tsc"
+  }
 }

@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 html,
 body {
   height: 100%;
@@ -38,16 +33,6 @@ p {
   color: rgb(231, 224, 224);
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-  color: inherit;
-}
-
 .icons {
   display: flex;
   flex-wrap: wrap;
@@ -61,8 +46,8 @@ a:active {
   transform: scale(1.2);
 }
 
-svg {
-  margin: 1em;
+img {
+  margin: 0.5em 1em;
 }
 
 .links {
@@ -78,4 +63,14 @@ svg {
   border: 1px solid rgb(231, 224, 224);
   padding: 0.25em;
   margin: 0.25em;
+}
+
+.details {
+  margin: auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+.details p {
+  margin: 0 1em;
 }
